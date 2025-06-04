@@ -5,4 +5,6 @@ module org.example.todoapp {
 
     opens org.example.todoapp to javafx.fxml;
     exports org.example.todoapp;
+    exports org.example.model;
+    opens org.example.model to javafx.fxml;
 }
